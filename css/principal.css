@@ -1,6 +1,7 @@
 body{
     background-color: #fcfcf6 !important;
     padding-top: 3em;
+    padding: 0px 10;
 }
 
 .footer{
@@ -38,7 +39,7 @@ body{
 
 
 #img1{
-    width: 25em;
+    width: 100%;
     height: auto;
 }
 
