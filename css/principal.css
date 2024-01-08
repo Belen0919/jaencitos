@@ -6,8 +6,10 @@ body{
 
 .footer{
     background-color: #d3d286;
-    height: 12em;
-    padding-top: 0.5em;
+    height: 10%;
+    padding:1%;
+    overflow: auto;
+    width: 100%;
     
 }
 
@@ -44,9 +46,8 @@ body{
 }
 
 .logo{
-    height: 8em;
+    height: 100px;
     width: auto;
-    margin: 1em;
 }
 
 .justifica{
@@ -84,7 +85,7 @@ a{
 }
 
 #zonaCuadros{
-    margin:8em;
+    margin:5%;
 }
 
 /* Estilos CSS para la imagen y su contenedor */
@@ -134,4 +135,27 @@ a{
 .bandera{
     width:1em;
     height: auto;
+}
+
+/*RESPONSIVE TODOS LOS TAMAÑOS MÓVILES Y TABLETS*/
+
+.video{
+    width: 560px;
+    height: 395px;
+}
+
+@media screen and (max-width: 595px){
+    .video{
+        width: 200px;
+        height: 150px;
+    }
+
+    .logo{
+        width: 60px;
+        height: auto;
+    }
+
+    .textos{
+        font-size: smaller;
+    }
 }
